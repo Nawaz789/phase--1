@@ -1,0 +1,32 @@
+void setup()
+{
+  pinMode(7, INPUT);
+  pinMode(11, OUTPUT);
+  int analogPin = 11;
+  int lux=0;
+
+  
+}
+
+void loop(){
+  int lux=0;
+  
+  if(digitalRead(7)==HIGH)
+  {
+    analogWrite(11,255);
+  }
+  else if(digitalRead(7)==LOW)
+  {
+    analogWrite(11,0);
+  }
+    
+ else if(lux<300)
+{  
+  analogWrite(11,255);
+}
+  else
+  {
+      analogWrite(11,255/2);
+  }
+} 
+    
