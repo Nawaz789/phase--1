@@ -1,0 +1,15 @@
+Concept used:
+Connect the led with the help of switch, bread board,arduino board.aAter connecting these write the code and stimulate it .if the code is write then it stimulates.
+
+Learning and outcomes:
+If the lux<300 then the led glows brighter
+If the lux>300 then the led glows 50% of the initial condition
+
+Precautions:
+Check the port before uploading the code as this is common mistake for all.
+
+PROBLEMS AND TROUBLESHOOTING:
+No problem faced while performing the experiment. Worked well, as the task was an easy one.
+
+LEARNING OUTCOMES:
+After performing this experiment, I am comfortable with the basic hardware and software aspects of Arduino.
